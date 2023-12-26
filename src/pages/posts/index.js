@@ -1,6 +1,6 @@
 import Link from "next/link";
 function Posts({ posts }) {
-    console.log(posts)
+    // console.log(posts)
     return (
         <>
             {
@@ -21,10 +21,9 @@ export default Posts;
 export async function getStaticProps() {
     const response = await fetch('https://jsonplaceholder.typicode.com/posts')
     const data = await response.json()
-    console.log(data)
     return {
         props: {
-            posts: data
+            posts: data.slice(0,3)
         }
     }
 }
