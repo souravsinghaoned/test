@@ -1,0 +1,106 @@
+{
+    "events":[
+        {
+            "id" : 1,
+            "title" : "Event 1",
+            "description" : "Description 1",
+            "category" : "sports",
+            "date" : "10 dec"
+        },
+        {
+            "id" : 2,
+            "title" : "Event 2",
+            "description" : "Description 2",
+            "category" : "technology",
+            "date" : "11 dec"
+        },
+        {
+            "id" : 3,
+            "title" : "Event 3",
+            "description" : "Description 3",
+            "category" : "food",
+            "date" : "12 dec"
+        },
+        {
+            "id" : 4,
+            "title" : "Event 4",
+            "description" : "Description 4",
+            "category" : "sports",
+            "date" : "13 dec"
+        },
+        {
+            "id" : 5,
+            "title" : "Event 5",
+            "description" : "Description 5",
+            "category" : "sports",
+            "date" : "14 dec"
+        },
+        {
+            "id" : 6,
+            "title" : "Event 6",
+            "description" : "Description 6",
+            "category" : "sports",
+            "date" : "15 dec"
+        },
+        {
+            "id" : 7,
+            "title" : "Event 7",
+            "description" : "Description 7",
+            "category" : "sports",
+            "date" : "16 dec"
+        },
+        {
+            "id" : 8,
+            "title" : "Event 8",
+            "description" : "Description 8",
+            "category" : "sports",
+            "date" : "17 dec"
+        },
+        {
+            "id" : 9,
+            "title" : "Event 9",
+            "description" : "Description 9",
+            "category" : "sports",
+            "date" : "18 dec"
+        },
+        {
+            "id" : 10,
+            "title" : "Event 10",
+            "description" : "Description 10",
+            "category" : "sports",
+            "date" : "19 dec"
+        }
+    ],
+    "dashboard":{
+        "post":20,
+        "links":43,
+        "followers":50,
+        "following":30
+    },
+    "news":[
+        {
+            "id" : 1,
+            "title" : "News Article 1",
+            "description" : "Description 1",
+            "category" : "sports"
+        },
+        {
+            "id" : 2,
+            "title" : "News Article 2",
+            "description" : "Description 2",
+            "category" : "politics"
+        },
+        {
+            "id" : 3,
+            "title" : "News Article 3",
+            "description" : "Description 3",
+            "category" : "entertaintment"
+        },
+        {
+            "id" : 4,
+            "title" : "News Article 4",
+            "description" : "Description 4",
+            "category" : "sports"
+        }
+    ]
+}
