@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { getSession} from "next-auth/react";
 
 
 function Dashboard() {

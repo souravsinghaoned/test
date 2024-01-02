@@ -1,8 +1,9 @@
 import { useRouter } from "next/router";
-
+import { getSession, useSession} from "next-auth/react";
 
 
 function Docs() {
+    const { data: session, status } = useSession();
     const route = useRouter()
     console.log(route)
     const { params = [] } = route.query
